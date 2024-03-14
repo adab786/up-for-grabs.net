@@ -785,6 +785,10 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: transform .2s;
+}
+.data-box{
+  transform: scale(1.1); 
 }
 
 .projects,
